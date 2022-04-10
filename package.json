@@ -1,5 +1,5 @@
 {
-  "name": "bittorrent-tester",
+  "name": "tracker-tester",
   "version": "1.0.0",
   "description": "Tests whether or not a bittorrent tracker is responsive",
   "main": "server.js",
@@ -23,5 +23,6 @@
   ],
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "devDependencies": {}
 }
