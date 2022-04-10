@@ -1,6 +1,6 @@
 {
   "name": "tracker-tester",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Tests whether or not a bittorrent tracker is responsive",
   "main": "server.js",
   "scripts": {
@@ -26,7 +26,6 @@
   },
   "devDependencies": {},
   "bin": {
-    "hello": "./bin/cli.js"
+    "tracker-tester": "bin/cli.js"
   }
- 
 }

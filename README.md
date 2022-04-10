@@ -7,6 +7,8 @@
 
 ## Example
 ### CLI
+`npm i tracker-tester -g`
+
 `> tracker-tester https://tracker.peer.ooo/announce`
 
 ### Node.js
