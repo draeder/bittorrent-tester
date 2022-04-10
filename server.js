@@ -45,8 +45,10 @@ const Tester = function(tracker){
     }
     return res.text()
   })
-  .then(text => ()=>{})//console.log(text))
-  .catch(err => console.log(err))
+  .then(text => ()=>{})
+  .catch(err => {
+    tester.emit('result', false)
+  })
   
   function encodeURI(hash) {
     return hash.replace(/.{2}/g, function (m) {
