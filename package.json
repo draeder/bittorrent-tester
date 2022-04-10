@@ -11,10 +11,17 @@
     "type": "git",
     "url": "git+https://github.com/draeder/bittorrent-tester.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Daniel Raeder",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/draeder/bittorrent-tester/issues"
   },
-  "homepage": "https://github.com/draeder/bittorrent-tester#readme"
+  "homepage": "https://github.com/draeder/bittorrent-tester#readme",
+  "keywords": [
+    "bittorrent",
+    "tracker"
+  ],
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
