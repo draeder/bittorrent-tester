@@ -24,5 +24,9 @@
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bin": {
+    "hello": "./bin/cli.js"
+  }
+ 
 }

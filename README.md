@@ -6,6 +6,10 @@
 `npm i tracker-tester`
 
 ## Example
+### CLI
+`> tracker-tester https://tracker.peer.ooo/announce`
+
+### Node.js
 ```js
 const Tester = require('tracker-tester')
 
