@@ -7,7 +7,7 @@
 
 ## Example
 ```js
-const Tester = require('./')
+const Tester = require('tracker-tester')
 
 let tester = new Tester('https://tracker.peer.ooo/announce')
 tester.on('result', result => {

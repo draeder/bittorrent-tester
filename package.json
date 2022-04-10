@@ -1,6 +1,6 @@
 {
   "name": "tracker-tester",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tests whether or not a bittorrent tracker is responsive",
   "main": "server.js",
   "scripts": {
