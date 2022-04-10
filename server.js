@@ -8,7 +8,7 @@ let port = 30210
 let uploaded = 1024 * 16
 let downloaded = 1024 * 16
 
-console.log(peerId)
+console.log('My peer ID:', peerId)
 
 let url = [
     tracker,
@@ -25,18 +25,17 @@ let url = [
     '&compact=1'
 ].join('')
 
-console.log(url)
+console.log('Testing tracker:', url)
 
 fetch(url)
 .then(res => res)
 .then(res => {
-    console.log(res)
     if(res.status != 200){
         console.log('bad tracker')
     }
     return res.text()
 })
-.then(text => console.log(text))
+.then(text => ()=>{})//console.log(text))
 .catch(err => console.log(err))
 
 function encodeURI(hash) {
